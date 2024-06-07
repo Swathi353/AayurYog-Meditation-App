@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F50057"
+    tools:context=".pranayamactivity"
+    tools:ignore="DuplicateIds">
+
+    <TextView
+        android:id="@+id/song_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:ellipsize="marquee"
+        android:padding="20dp"
+        android:singleLine="true"
+        android:text="Metroname Beats"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:id="@+id/controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="112dp"
+        android:padding="40dp">
+
+        <!--<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/previous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+
+                android:src="@drawable/ic_baseline_skip_previous_24" />
+
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+
+                android:src="@drawable/ic_baseline_skip_next_24" />
+
+            <ImageView
+                android:id="@+id/pause_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_baseline_pause_circle_outline_24" />
+
+        </RelativeLayout>-->
+
+    </RelativeLayout>
+
+    <VideoView
+        android:id="@+id/vv"
+        android:layout_width="377dp"
+        android:layout_height="193dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="202dp" />
+
+</RelativeLayout>

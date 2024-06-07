@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "432373696038",
+    "project_id": "abhijeet-d75e4",
+    "storage_bucket": "abhijeet-d75e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432373696038:android:8fa6315974b6ae4447c8e7",
+        "android_client_info": {
+          "package_name": "com.example.meditationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432373696038-7q3onaetmlpvj0jmk20bdl0g1tqgu7la.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpYzKdtf0AAnbX1GgCpEKAAcCmpy98DDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432373696038-7q3onaetmlpvj0jmk20bdl0g1tqgu7la.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

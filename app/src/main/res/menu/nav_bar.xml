@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home_foreground"/>
+    <item
+        android:id="@+id/sleep"
+        android:title="Sleep"
+        android:icon="@drawable/sleep_foreground"/>
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/person_foreground"/>
+</menu>
